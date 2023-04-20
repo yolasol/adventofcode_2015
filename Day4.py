@@ -19,6 +19,7 @@ while hex[0:5] != '00000':
 print(hex, num-1)
 
 # reset
+# why? because I cannot brain
 num = 1
 key = input + str(num)
 hash = hashlib.md5(key.encode())
